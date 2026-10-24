@@ -15,7 +15,7 @@ An all-in-one **ecommerce financial modeling** and **12-week rolling cash flow f
 Stress-test your store's operational data in the free browser sandbox instantly. For recurring monthly treasury management, custom parameter configuration, and 100% offline financial data privacy, download the fully unlocked Microsoft Excel workbook backed by a 30-day, no-questions-asked money-back guarantee.
 
 > 🌐 **Launch Interactive Web Sandbox (Zero Setup)**  
-> [Test Your Store Metrics in the Free Browser-Based DTC Cash Flow & Liquidity Simulator](https://hyvoid.github.io/DTC-Financial-Control-Cash-Flow-Toolkit/)
+> [Test Your Store Metrics in the Free Browser-Based DTC Cash Flow & Liquidity Simulator](https://hyvoid.github.io/shopify-cash-flow-forecast-excel-toolkit/)
 >
 > 📥 **Get the Full Offline Operating Model (.xlsx)**  
 > [Download the Reusable Shopify Financial Control & 12-Week Cash Flow Excel Template](https://www.theseusworkshop.com/l/iybjto?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=dtc-financial-control-cashflow)
@@ -59,7 +59,7 @@ Navigate to the **Financial_Dashboard** and analytical tabs. Powered by native E
 *   Pre-approval pass/fail grades for upcoming inventory purchase orders
 
 ### Step 4: Lock In Your Monthly Treasury Routine (Download the Reusable Excel Model)
-Use the [Free Browser-Based DTC Cash Flow Simulator](https://hyvoid.github.io/DTC-Financial-Control-Cash-Flow-Toolkit/) for an immediate diagnostic test of your current numbers. Once you validate how the model exposes hidden cash gaps, transition to the full spreadsheet for ongoing weekly and monthly financial control.
+Use the [Free Browser-Based DTC Cash Flow Simulator](https://hyvoid.github.io/shopify-cash-flow-forecast-excel-toolkit/) for an immediate diagnostic test of your current numbers. Once you validate how the model exposes hidden cash gaps, transition to the full spreadsheet for ongoing weekly and monthly financial control.
 
 👉 **CTA — Build Your Permanent Financial Operating System:**  
 **[Download the Unlocked Shopify Financial Control & Cash Flow Excel Template (.xlsx)](https://www.theseusworkshop.com/l/iybjto?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=dtc-financial-control-cashflow)** — Engineered for repeatable monthly workflows. Simply paste new CSV exports over the input tables each week; every reconciliation status, 12-week rolling chart, and inventory risk indicator refreshes automatically without rewriting a single formula.
