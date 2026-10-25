@@ -1,388 +1,225 @@
 [ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
 
-# Toolkit de Contrôle Financier DTC & Prévision des Flux de Trésorerie | Modèle Excel pour Shopify
+# Toolkit de Contrôle Financier DTC & Prévision des Flux de Trésorerie sur 12 Semaines | Modèle Excel Shopify & de Rapprochement des Versements
 <img width="1920" height="790" alt="image" src="https://github.com/user-attachments/assets/2b140bc1-af18-4481-82c0-d626669f8fe2" />
 
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
-![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-success.svg)
-![Tool](https://img.shields.io/badge/Tool-Financial%20Modeling-orange.svg)
+![Platform](https://img.shields.io/badge/Platform-Browser%20Sandbox%20%2B%20Excel%20(.xlsx)-success.svg)
+![Tool](https://img.shields.io/badge/Category-Ecommerce%20Financial%20Modeling%20%26%20FP%26A-orange.svg)
 
-**Un modèle tout-en-un de modélisation financière e-commerce et de prévision des flux de trésorerie qui transforme les versements Shopify, les rapprochements bancaires, les bons de commande de stock et les dépenses publicitaires en un cadre unifié de planification de liquidité. Une alternative légère d'aide à la décision aux systèmes ERP complexes pour les marques direct-to-consumer (DTC).**
+Une solution tout-en-un de **modélisation financière e-commerce** et de **modèle Excel de prévision des flux de trésorerie glissante sur 12 semaines**, conçue pour les **boutiques Shopify** et les **marques direct-to-consumer (DTC)**. Ce toolkit transforme les **versements Shopify** bruts, les **rapprochements du compte d'attente bancaire**, les **bons de commande d'inventaire (POs)**, les factures de **comptes fournisseurs (AP)** et les **dépenses publicitaires payantes (Meta/Google Ads)** en un **cadre unifié de planification du fonds de roulement et de la liquidité**. Conçu comme une **alternative de soutien à la décision FP&A** légère et sans code, en remplacement des **systèmes ERP** d'entreprise à six chiffres et des rapports comptables statiques **QuickBooks/Xero**.
 
-**Aucune inscription. Aucune installation. Gratuit dans votre navigateur.**
+**Aucune inscription. Aucune installation. Test interactif gratuit dans votre navigateur.**
 
-Testez vos données opérationnelles instantanément dans la version navigateur gratuite. Pour une planification financière mensuelle continue et la sécurité des données hors ligne, passez au modèle Excel entièrement déverrouillé avec une garantie de remboursement de 30 jours sans question.
+Testez instantanément les données opérationnelles de votre boutique dans le bac à sable gratuit du navigateur. Pour une gestion de trésorerie mensuelle récurrente, une configuration de paramètres personnalisée et une confidentialité totale des données financières hors ligne, téléchargez le classeur Microsoft Excel entièrement déverrouillé, soutenu par une garantie de remboursement de 30 jours sans questions.
 
-> 🌐 **Ouvrir le tableau de bord interactif**  
-> [Essayez le simulateur de flux de trésorerie DTC gratuit dans le navigateur](https://hyvoid.github.io/DTC-Financial-Control-Cash-Flow-Toolkit/)
+> 🌐 **Lancer le bac à sable web interactif (aucune configuration)**  
+> [Testez les métriques de votre boutique dans le simulateur DTC de flux de trésorerie et de liquidité gratuit basé sur navigateur](https://hyvoid.github.io/shopify-cash-flow-forecast-excel-toolkit/)
 >
-> 📥 **Obtenez le tableur réutilisable**  
-> [Téléchargez le modèle Excel de contrôle financier pour Shopify](https://www.theseusworkshop.com/l/iybjto?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=dtc-financial-control-cashflow)
+> 📥 **Obtenir le modèle d'exploitation hors ligne complet (.xlsx)**  
+> [Téléchargez le modèle Excel réutilisable de Contrôle Financier Shopify & de Flux de Trésorerie sur 12 Semaines](https://www.theseusworkshop.com/l/iybjto?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=dtc-financial-control-cashflow)
 
 ---
 
-## Ce que cela vous aide à suivre : Points de douleur financiers de l'e-commerce vs. solutions
+## Ce que cela vous aide à suivre : points de douleur financiers de l'e-commerce vs. solutions automatisées
 
-Plutôt que de vous fier à des rapports isolés de logiciels comptables, ce toolkit offre une visibilité financière prospective. 
+Les logiciels comptables standard suivent la rentabilité historique en comptabilité d'engagement, laissant les marques en croissance aveugles aux prochaines crises de trésorerie. Ce cadre de contrôle financier cartographie les fuites opérationnelles spécifiques directement sur des métriques de trésorerie prospectives :
 
-| Point de douleur opérationnel (le « pourquoi ») | Solution de contrôle financier (le « comment ») |
-| :--- | :--- |
-| **Soldes bancaires aveugles :** Deviner la piste de trésorerie réelle sur la base du solde du compte courant du jour. | **Prévision réelle de la position de trésorerie :** Calcule la liquidité opérationnelle réelle en projetant les créances à payer en regard de la trésorerie future. |
-| **Versements Shopify manquants :** Règlements de marchands non rapprochés provoquant des cauchemars comptables en fin de mois. | **Rapprochement automatisé des règlements :** Signale les retards de transit et les comptes de blocage avant qu'ils ne deviennent des erreurs comptables. |
-| **Fraude et erreurs de facturation :** Payer par accident deux fois le même fournisseur sur des cycles de facturation différents. | **Revue et vérification des comptes fournisseurs (AP) :** Met en évidence les risques de factures et de paiements en double avant que le fonds de roulement ne quitte l'entreprise. |
-| **Pénuries de fonds de roulement :** Payer le stock de gros des semaines avant que le creux de trésorerie ne frappe réellement. | **Simulation de financement des bons de commande (PO) :** Modélise les futures pénuries de trésorerie créées par les acomptes de stock à venir et les conditions de fabrication. |
-| **Dépenses marketing isolées :** Considérer les coûts publicitaires Facebook/Google séparément des marges brutes et de la trésorerie entrante. | **Suivi holistique de la liquidité par le ROAS :** Analyse les dépenses publicitaires quotidiennes aux côtés des règlements entrants de la passerelle pour comprendre la vraie consommation de trésorerie. |
-
----
-
-## Tutoriel de démarrage rapide : Comment automatiser votre analyse des flux de trésorerie
-
-Transformez vos données e-commerce brutes en un tableau de bord financier de direction en quatre étapes structurées.
-
-### Étape 1 : Configurer les paramètres financiers (configuration unique)
-Ouvrez la feuille **Parameters** pour définir vos règles de base en matière de fonds de roulement. Définissez votre seuil de réserve de trésorerie minimale, la devise de reporting, les taux de change et l'horizon de prévision de 12 semaines. Ces entrées créent la base de votre système financier d'exploitation personnalisé.
-
-### Étape 2 : Importez vos données e-commerce et comptables
-Évitez la saisie manuelle des données. Exportez des rapports CSV depuis votre pile technologique existante et collez-les directement dans les feuilles de saisie désignées. Les sources de données prises en charge comprennent :
-*   Commandes et versements de marchands Shopify
-*   Relevés bancaires de comptes courants et d'épargne
-*   Exports de systèmes comptables (QuickBooks, Xero)
-*   Bons de commande fournisseurs (PO)
-*   Dépenses Facebook Ads et Google Ads
-
-### Étape 3 : Générez l'analyse automatisée de liquidité et de ROAS
-Accédez au **Dashboard** et aux modules analytiques. Sans écrire une seule formule, le moteur de rapprochement automatisé visualise instantanément :
-*   Les exceptions de règlements de passerelle non rapprochés
-*   Les alertes de comptes fournisseurs (AP) en double
-*   Les prévisions glissantes des flux de trésorerie sur 12 semaines
-*   La pression de financement du stock et la piste de trésorerie
-*   Les KPI opérationnels de niveau direction
-
-### Étape 4 : Établissez une routine et téléchargez pour une utilisation répétée
-Pour votre première exécution, utilisez la version navigateur pour voir l'impact analytique immédiat. Pour construire une routine mensuelle robuste, exportez le système pour une utilisation à long terme. 
-
-👉 **Action requise :** Une fois votre flux de travail validé dans le navigateur, **[téléchargez ici le modèle Excel réutilisable de flux de trésorerie](https://www.theseusworkshop.com/l/iybjto?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=dtc-financial-control-cashflow)**. Actualisez votre analyse chaque semaine ou chaque mois en collant simplement de nouveaux tableaux sources sur les anciens — tous les graphiques, prévisions et indicateurs de risque s'actualisent automatiquement.
-
----
-
-## Scénarios concrets : Quand utiliser ce toolkit financier e-commerce
-
-Ce système est conçu pour les points d'inflexion critiques du cycle de vie d'une marque DTC où s'appuyer sur des données comptables historiques ne suffit plus.
-
-*   **Scénario A : Planification du stock pour les fêtes du T4.** Vous devez passer de grosses commandes de fabrication au T3 mais vous n'êtes pas sûr que l'acompte de 30% et le solde de 70% à la livraison épuisent vos réserves de trésorerie avant l'arrivée des revenus du Black Friday. Utilisez l'*Inventory Impact Simulator* pour soumettre vos conditions de paiement à un test de résistance.
-*   **Scénario B : Montée en charge des budgets paid media.** Le chiffre d'affaires croît, mais aussi vos dépenses publicitaires quotidiennes. Vous devez vous assurer que le délai entre la sortie des dépenses publicitaires de la banque et l'encaissement des versements Shopify ne provoque pas une crise de liquidité à court terme.
-*   **Scénario C : Audits comptables de fin de mois.** Ventes brutes Shopify déclarées ne correspondent pas aux dépôts nets arrivant sur votre compte bancaire en raison des remboursements, des chargebacks et des frais de plateforme. Utilisez le toolkit pour un rapprochement automatisé à 3 voies.
-
----
-
-## Problèmes financiers DTC courants que cela résout
-
-| Problème comptable e-commerce | Processus manuel traditionnel | Solution automatisée du toolkit |
+| Point de douleur financier e-commerce (intention de recherche) | Risque de fonds de roulement sous-jacent | Module toolkit automatisé & KPI suivis |
 | :--- | :--- | :--- |
-| **Les versements Shopify ne se rapprochent pas** des comptes de dénouement bancaires | Les controllers recherchent manuellement des centaines de transactions de passerelle de paiement | Le rapprochement automatisé à 3 voies signale instantanément les versements de marchands non appariés |
-| **Paiements fournisseurs en double** et erreurs de facturation | Les services AP découvrent les paiements de PO en double après le virement | Le système de revue AP signale les ID de facture en double avant de déployer le fonds de roulement |
-| **Des pénuries de trésorerie apparaissent de façon inattendue** pendant la croissance | Les décisions commerciales reposent strictement sur le solde bancaire statique du jour | Les modèles financiers glissants estiment les positions de trésorerie futures sur les 12 prochaines semaines |
-| **Les achats de stock dépassent le fonds de roulement** | Les décisions d'achat ignorent les obligations futures et les coûts de fret | Les simulations de stock estiment l'impact sur la liquidité avant d'approuver les PO du fabricant |
-| **Les dépenses publicitaires croissent plus vite que la trésorerie entrante** | Les équipes marketing et finance travaillent en silos avec des tableurs séparés | Les coûts publicitaires et les entrées de règlement sont intégrés dans un unique modèle de prévision |
-| **Le reporting de direction exige plusieurs systèmes logiciels** | Les décideurs perdent des heures à assembler manuellement des données fragmentées | Le Financial Dashboard résume les métriques opérationnelles et les KPI dans une vue centralisée unique |
+| **Gestion aveugle du solde bancaire :** deviner la **piste de trésorerie** réelle sur la seule base du solde statique du compte courant du jour. | Surengager la trésorerie dans l'inventaire ou le marketing juste avant que les salaires et les dettes fournisseurs ne se chevauchent. | **Prévision de flux de trésorerie glissante sur 12 semaines :** calcule la **liquidité opérationnelle nette** et les **ruptures de réserve de sécurité** en échelonnant les dettes à payer futures contre les entrées attendues. |
+| **Versements Shopify non rapprochés :** les ventes brutes dans Shopify ne correspondent pas aux dépôts bancaires nets en raison des retenues de passerelle, des remboursements et des frais. | Fuite de revenus cachée, rétrofacturations non enregistrées et erreurs comptables du **compte d'attente** en fin de mois. | **Moteur de rapprochement à trois voies :** suit la **variance commande-à-versement**, les **fonds de passerelle en transit** et les **exceptions de règlement non appariées**. |
+| **Factures fournisseurs en double & erreurs AP :** payer accidentellement deux fois le même transitaire ou fabricant sur plusieurs cycles de facturation. | Perte directe de fonds de roulement et échéanciers de **vieillissement des comptes fournisseurs (AP)** déformés. | **Module d'audit AP & de vérification des paiements :** signale les **ID de factures en double**, les **risques de trop-payé** et les **virements en attente d'approbation** avant que la trésorerie ne quitte la banque. |
+| **Rupture de stock vs. crise de trésorerie :** payer 30 % d'acomptes initiaux et 70 % de soldes sur les **bons de commande (POs)** des semaines avant que l'inventaire ne se convertisse en trésorerie. | Insolvabilité induite par l'inventaire pendant les pics de production Q3/Q4. | **Simulateur d'impact des PO d'inventaire :** soumet à un test de résistance les **conditions de paiement du coût complet (Net-30/60)** contre votre **seuil minimal de réserve de trésorerie**. |
+| **Dépenses publicitaires cloisonnées & reporting ROAS :** les acheteurs média escaladent les budgets publicitaires quotidiens Facebook/Google déconnectés du timing réel de règlement bancaire. | **Ratio d'efficacité marketing (MER)** élevé sur le papier masquant une grave combustion à court terme des cartes de crédit et de la trésorerie. | **Traqueur de liquidité des dépenses publicitaires intégré :** aligne les **sorties hebdomadaires de coût d'acquisition client (CAC)** sur les **entrées retardées des processeurs de paiement**. |
 
 ---
 
-## À qui cela s'adresse : Rôles et cas d'usage
+## Tutoriel de démarrage rapide : comment automatiser votre analyse de flux de trésorerie et de versements Shopify
 
-Ce toolkit comble le fossé entre la comptabilité de base et la gestion de trésorerie d'entreprise. Il est délibérément conçu pour :
+Transformez les exports CSV fragmentés de votre pile technologique e-commerce en un **tableau de bord financier FP&A** prêt pour la direction en quatre étapes structurées.
 
-*   **Les CFO e-commerce et CFO à temps partagé** ayant besoin d'un *modèle Excel de flux de trésorerie Shopify* fiable pour fournir des services de conseil prospectifs et du reporting client.
-*   **Les fondateurs et propriétaires de marques DTC** cherchant une alternative de *logiciel de tableau de bord financier* offrant de la clarté opérationnelle sans le coût d'implémentation ERP à six chiffres.
-*   **Les responsables financiers et controllers** en charge du *rapprochement mensuel des passerelles de paiement* et de la prévention des fuites de trésorerie.
-*   **Les équipes opérations et chaîne d'approvisionnement** cherchant un *tableur de prévision de stock* pour coordonner le volume d'achat avec le calendrier de paiement optimal.
-*   **Les responsables marketing à la performance** qui doivent équilibrer la montée en charge des dépenses publicitaires avec la réalité du cash réellement présent en banque.
+### Étape 1 : configurer les paramètres de base du fonds de roulement (configuration unique)
+Ouvrez la feuille **Parameters** pour établir les garde-fous de trésorerie de votre entreprise. Définissez votre **réserve de trésorerie de sécurité minimale**, votre **devise de reporting**, vos **taux de change (FX)**, les conditions de paiement fournisseurs par défaut et l'**horizon de prévision glissant de 12 semaines**. Ces variables globales régissent toutes les alertes de liquidité en aval.
 
-*Remarque : Ce toolkit n'est **pas** conçu pour remplacer votre grand livre, QuickBooks, Xero ou les systèmes ERP d'entreprise. C'est un cadre spécialisé d'aide à la décision qui connecte vos données brutes existantes dans un processus de contrôle financier pratique.*
+### Étape 2 : importer les données CSV brutes e-commerce, bancaires et comptables
+Éliminez la saisie manuelle des données et le copier-coller fragile. Exportez les journaux de transactions CSV standard depuis vos plateformes existantes et déposez-les dans les tableaux d'entrée Excel structurés :
+*   **Exports de commandes Shopify et de versements marchands** (ventes brutes, remboursements, frais de passerelle, règlements nets)
+*   **Relevés de compte courant commercial et de cartes de crédit** (exports CSV de Mercury, Chase, Relay ou Amex)
+*   **Grand livre & factures AP** (exports de **QuickBooks Online**, **Xero** ou Bill.com)
+*   **Bons de commande fournisseurs (POs)** (calendriers de production SKU, acomptes initiaux, dates d'échéance des soldes)
+*   **Dépenses de marketing de performance** (dépenses publicitaires quotidiennes/hebdomadaires de **Meta Ads Manager**, **Google Ads** et **TikTok Ads**)
 
----
+### Étape 3 : exécuter le rapprochement automatisé, l'audit AP et les tests de résistance de liquidité
+Naviguez vers le **Financial_Dashboard** et les onglets analytiques. Alimenté par les tableaux dynamiques Excel natifs (`LET`, `MAP`, `LAMBDA`, `XLOOKUP`), le modèle calcule et signale automatiquement :
+*   les règlements de passerelles de paiement non appariés et les variances de compensation
+*   les numéros de factures de comptes fournisseurs (AP) en double et les alertes de double paiement
+*   les soldes de trésorerie glissants semaine par semaine sur 12 semaines vs. les seuils de réserve de sécurité
+*   les notes de réussite/échec préalables à l'approbation pour les prochains bons de commande d'inventaire
 
-## L'origine : Pourquoi j'ai construit ce système d'exploitation financier
+### Étape 4 : verrouiller votre routine de trésorerie mensuelle (télécharger le modèle Excel réutilisable)
+Utilisez le [simulateur DTC de flux de trésorerie gratuit basé sur navigateur](https://hyvoid.github.io/shopify-cash-flow-forecast-excel-toolkit/) pour un test diagnostique immédiat de vos chiffres actuels. Une fois que vous avez validé comment le modèle expose les lacunes de trésorerie cachées, passez au tableur complet pour un contrôle financier hebdomadaire et mensuel continu.
 
-Beaucoup de marques Shopify en croissance croient avoir une visibilité financière parce qu'elles possèdent un logiciel comptable, des soldes bancaires et des tableaux de bord des ventes. En réalité, ces systèmes répondent à des questions complètement différentes :
-
-*   **La comptabilité** explique ce qui s'est déjà produit (historique).
-*   **Shopify** explique ce que les clients ont acheté (revenus).
-*   **Les banques** montrent où se trouve la trésorerie actuellement (liquidité statique).
-*   **Les plateformes publicitaires** expliquent où l'argent a été dépensé (acquisition de clients).
-
-Aucun d'eux n'explique indépendamment si les décisions opérationnelles d'aujourd'hui créeront un problème de fonds de roulement dans six semaines. Cet écart analytique provoque des erreurs coûteuses. Le stock est commandé parce que les ventes semblent fortes. Les budgets publicitaires augmentent parce que le chiffre d'affaires croît. Les paiements fournisseurs sont approuvés parce que le solde bancaire actuel paraît sain. 
-
-Ce n'est que plus tard que l'entreprise découvre que le calendrier des règlements, les acomptes sur stock, les coûts publicitaires et les factures en souffrance se chevauchent pour créer une pénurie massive de liquidités. 
-
-J'ai construit ce classeur comme un modèle de raisonnement financier réutilisable plutôt que comme un simple tableur de reporting statique de plus.
-
-**Avant d'utiliser le toolkit :**
-Une boutique Shopify déclare $480 000 de revenus mensuels. La direction approuve un achat de stock de $150 000. Trois semaines plus tard, les factures publicitaires, les acomptes fournisseurs et les versements Shopify retardés se chevauchent de manière inattendue, réduisant la trésorerie disponible en dessous des besoins de paie.
-
-**Après avoir utilisé le toolkit :**
-Le même achat est saisi dans l'Inventory Impact Simulator avant approbation. Le toolkit prévoit immédiatement que la trésorerie de la semaine 7 tombera sous la réserve de sécurité configurée. La direction retarde une partie de l'achat de deux semaines et négocie des conditions de paiement Net-30 révisées avec le fournisseur. Le chiffre d'affaires reste inchangé. Le risque de trésorerie disparaît.
-
-**L'objectif n'est pas un meilleur reporting. L'objectif est de meilleures décisions avant que les problèmes de flux de trésorerie ne deviennent des urgences opérationnelles.**
+👉 **CTA — Construisez votre système d'exploitation financier permanent :**  
+**[Téléchargez le modèle Excel de Contrôle Financier Shopify & de Flux de Trésorerie déverrouillé (.xlsx)](https://www.theseusworkshop.com/l/iybjto?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=dtc-financial-control-cashflow)** — Conçu pour des flux de travail mensuels reproductibles. Collez simplement les nouveaux exports CSV par-dessus les tableaux d'entrée chaque semaine ; chaque statut de rapprochement, graphique glissant de 12 semaines et indicateur de risque d'inventaire se rafraîchit automatiquement sans réécrire une seule formule.
 
 ---
 
-## À propos du créateur
+## À qui cela s'adresse : rôles e-commerce ciblés & cas d'usage à fort impact
 
-Je conçois des outils légers d'aide à la décision sous Excel et dans le navigateur pour les environnements opérationnels où trop de pièces en mouvement rendent difficiles des décisions fiables. Chaque modèle et chaque toolkit commence par une question fondamentale : 
+Ce toolkit comble le fossé analytique entre la comptabilité historique (QuickBooks/Xero) et les logiciels de trésorerie d'entreprise lourds (NetSuite/Anaplan). Il est conçu spécifiquement pour des décideurs recherchant des **modèles de tableur e-commerce** actionnables :
 
-> *« Quelles informations doivent exister en un seul endroit centralisé avant que la prochaine décision stratégique puisse être prise en toute confiance ? »*
+*   **CFO e-commerce & cabinets de conseil en CFO fractionnel :**  
+    *Cas d'usage :* livrer des **modèles de prévision de flux de trésorerie sur 13/12 semaines** standardisés et un reporting mensuel au conseil sur plusieurs comptes clients Shopify Plus à 7 et 8 chiffres, sans construire des tableurs personnalisés à partir de zéro.
+*   **Fondateurs DTC, PDG & propriétaires de boutiques Shopify :**  
+    *Cas d'usage :* utiliser un **modèle de tableau de bord financier e-commerce** léger pour répondre à la question *« Pouvons-nous nous permettre cette commande d'inventaire de 150 000 $ et escalader simultanément les publicités Meta ? »* sans embaucher un analyste FP&A à temps plein ni payer des frais d'implémentation ERP à six chiffres.
+*   **Contrôleurs e-commerce, comptables & directeurs comptables :**  
+    *Cas d'usage :* remplacer les feuilles `VLOOKUP` manuelles sujettes aux erreurs par un **modèle de rapprochement des versements Shopify automatisé** qui apparie les règlements au niveau de la commande aux dépôts bancaires et empêche les virements fournisseurs en double.
+*   **Planificateurs d'inventaire, directeurs de la chaîne d'approvisionnement & des opérations :**  
+    *Cas d'usage :* exécuter un **simulateur de flux de trésorerie d'inventaire** pendant la préparation de la haute saison Q3/Q4 pour négocier les **conditions de paiement fournisseurs Net-30 / Net-60** et fractionner les lots de production afin que les acomptes au coût complet ne franchissent jamais les réserves de trésorerie minimales.
+*   **Marketers de croissance, acheteurs média & agences de performance :**  
+    *Cas d'usage :* coordonner l'**escalade des dépenses publicitaires sociales payantes** avec les **cycles de conversion de trésorerie (CCC)** réels, en veillant à ce que les campagnes d'acquisition client agressives ne déclenchent pas de gels de fonds de roulement à court terme dus aux retenues des processeurs de paiement.
+
+*Note de portée : ce toolkit ne remplace **pas** votre grand livre statutaire (QuickBooks, Xero) ni les logiciels de conformité fiscale. Il opère comme une **couche de soutien à la décision FP&A** agile posée au-dessus de vos exports comptables existants.*
 
 ---
 
-## Détails techniques
+## Scénarios e-commerce réels : quand déployer ce modèle de flux de trésorerie
+
+Les comptes de résultat (P&L) statiques échouent lors des points d'inflexion opérationnels rapides. Déployez ce toolkit face à ces scénarios DTC à enjeux élevés :
+
+### Scénario 1 : financement d'inventaire de haute saison (Q4 / Black Friday Cyber Monday)
+Vous devez émettre un bon de commande de fabrication de 200 000 $ en août avec 30 % d'acompte initial et 70 % dus au connaissement, bien avant que les revenus BFCM n'atteignent votre compte bancaire. Utilisez le **simulateur d'impact d'inventaire** pour modéliser les creux de trésorerie hebdomadaires exacts et tester si le fractionnement de l'expédition ou la négociation de conditions Net-45 empêche une rupture de liquidité en semaine 7.
+
+### Scénario 2 : escalade rapide de l'acquisition payante & gestion du décalage des versements
+Votre ROAS est rentable et vous escaladez les dépenses publicitaires quotidiennes Meta et Google de 2 000 $/jour à 6 000 $/jour. Cependant, les plateformes publicitaires débitent rapidement votre carte de crédit/banque tandis que les passerelles Shopify Payments, PayPal et Acheter Maintenant Payer Plus Tard (BNPL) retiennent ou retardent les versements de 3 à 7 jours ouvrés. Utilisez la **prévision de flux de trésorerie sur 12 semaines** pour modéliser le pont de fonds de roulement exact requis pour financer l'écart de règlement.
+
+### Scénario 3 : audit du compte d'attente en fin de mois & récupération des rétrofacturations
+Votre tableau de bord Shopify rapporte 500 000 $ de ventes mensuelles brutes, mais votre compte courant ne reflète que 442 000 $ de dépôts nets. Au lieu de passer 15 heures à recouper manuellement les lignes CSV, exécutez le **moteur de rapprochement à trois voies** pour isoler immédiatement les commandes exactes affectées par les frais de processeur, les remboursements en attente, les retenues de réserve ou les règlements bancaires manquants.
+
+---
+
+## Comparaison des flux de travail : tableurs manuels & systèmes ERP vs. toolkit automatisé
+
+| Flux de travail financier e-commerce central | Comptabilité manuelle traditionnelle (QuickBooks + VLOOKUPs manuels) | Logiciel ERP/trésorerie d'entreprise (NetSuite, HighRadius) | Ce toolkit Excel de Contrôle Financier DTC |
+| :--- | :--- | :--- | :--- |
+| **Rapprochement des versements Shopify commande-à-banque** | Les contrôleurs exportent manuellement les CSV et construisent des feuilles `VLOOKUP` fragiles qui cassent lorsqu'un versement couvre plusieurs commandes. | Nécessite des connecteurs middleware coûteux (p. ex. Celigo/A2X) et une configuration complexe des règles de compte d'attente. | Le **moteur de tableaux dynamiques automatisé** (`UNIQUE`/`MAP`/`SUMIFS`) isole instantanément les versements non appariés et les variances dollar exactes. |
+| **Détection des factures AP en double** | Les comptables s'appuient sur des contrôles visuels, ne découvrant les virements fournisseurs en double qu'après le rapprochement bancaire de fin de mois. | Imposé via des hiérarchies d'approbation des achats rigides qui ralentissent les chaînes d'approvisionnement DTC agiles. | Le **module de revue AP en temps réel** signale les ID de factures en double et les montants de paiement suspects avant tout décaissement. |
+| **Prévision de flux de trésorerie glissante sur 12 semaines** | Construite sur des tableurs statiques mis à jour manuellement qui deviennent obsolètes dès que les dépenses hebdomadaires réelles s'écartent. | Nécessite des administrateurs FP&A dédiés et des semaines d'intégration pour configurer les règles de prévision. | La **chronologie glissante auto-décalée** (`SEQUENCE`/`TODAY`) met à jour automatiquement les projections de liquidité hebdomadaires à partir des collages CSV bruts. |
+| **Tests de résistance des PO d'inventaire & du fonds de roulement** | Les équipes opérationnelles approuvent les PO d'usine sur la base du solde bancaire du jour, ignorant les factures publicitaires et les salaires qui se chevauchent à 6 semaines. | Enfermé dans des modules MRP complexes déconnectés des dépenses marketing en temps réel et des retards de règlement des passerelles. | Le **simulateur d'impact de PO interactif** modélise les dates d'acompte et de solde contre votre **réserve de trésorerie de sécurité** configurable. |
+| **Temps d'implémentation & coût total de possession** | 0 $ de coût logiciel, mais consomme 20–40 heures/mois de main-d'œuvre financière et de contrôle à haut coût. | De 25 000 $ à 100 000+ $ de licence annuelle plus 3–6 mois d'implémentation par des consultants. | **Test instantané dans le navigateur** + un **modèle Excel réutilisable** abordable et unique, prêt en moins de 15 minutes. |
+
+---
+
+## La logique métier & la méthodologie
+
+Ce toolkit n'est pas un modèle de reporting passif ; il est conçu autour de quatre **méthodologies établies de finance d'entreprise et de trésorerie**, taillées pour résoudre les vulnérabilités structurelles du modèle économique direct-to-consumer (DTC).
+
+### 1. Résoudre le cycle de conversion de trésorerie (CCC) inversé
+Dans le e-commerce de détail, le **cycle de conversion de trésorerie (CCC = DIO + DSO - DPO)** est structurellement inversé pendant les phases de croissance. Les marques décaissent de la trésorerie à l'avance pour les acomptes d'inventaire (**jours de stock**) et le marketing de performance quotidien, tout en attendant des jours ou des semaines que les processeurs de paiement (Stripe, Shopify Payments, PayPal, Affirm) règlent les fonds (**jours de crédit client**). La **comptabilité d'exercice (GAAP)** traditionnelle enregistre le revenu au paiement, masquant de graves déficits de timing de trésorerie. Ce toolkit impose une **visibilité de trésorerie en base de trésorerie**, faisant passer les décisions de direction du profit théorique du compte de résultat à la **liquidité du fonds de roulement** critique pour la survie.
+
+### 2. Rapprochement déterministe à trois voies des règlements marchands
+*   **La méthode :** adapte les **principes d'appariement à trois voies** d'entreprise à la reconnaissance de revenus e-commerce en recoupant trois livres de données indépendants : l'**origine de la commande** (ventes brutes/nettes Shopify), le **transit de compensation** (rapports de versements des passerelles de paiement) et le **règlement final** (relevés bancaires commerciaux).
+*   **Le problème métier résolu :** élimine la fuite silencieuse de revenus et l'enflure du compte d'attente. En isolant mathématiquement les variances au niveau transactionnel, les équipes financières détectent immédiatement les retenues de réserve des processeurs, les rétrofacturations non enregistrées, les pertes de conversion FX et les virements bancaires échoués sans auditer des milliers de lignes appariées.
+
+### 3. Prévision de flux de trésorerie glissante sur 12 semaines par la méthode directe
+*   **La méthode :** implémente la **méthode directe de prévision des flux de trésorerie** sur un **horizon glissant de 12 semaines** dynamique et auto-progressif (la norme institutionnelle pour le management de retournement et le contrôle de trésorerie des CFO fractionnels). Au lieu d'estimations de pourcentage descendantes, elle agrège les engagements opérationnels ascendants : acomptes de PO programmés, salaires/OPEX récurrents, vélocité de règlement historique et burn publicitaire hebdomadaire actif.
+*   **Le problème métier résolu :** éradique le piège de la « faillite rentable ». Il répond à la question opérationnelle la plus critique six à huit semaines à l'avance : *« Les soldes fournisseurs et les factures marketing qui se chevauchent pousseront-ils notre solde bancaire sous notre réserve d'exploitation minimale en semaine 7 ? »*
+
+### 4. Optimisation de l'inventaire & du fonds de roulement par contraintes
+*   **La méthode :** utilise des **tests de résistance de liquidité par scénarios** (inspirés de la modélisation financière de la **théorie des contraintes**). Chaque bon de commande d'inventaire proposé est évalué contre deux portes de trésorerie temporelles — la **date d'acompte initial** et la **date de règlement du solde final** — référencées contre un **plancher de réserve de trésorerie de sécurité** strict.
+*   **Le problème métier résolu :** transforme les achats d'un conflit binaire *« acheter vs. geler »* en un levier de négociation structuré. Les dirigeants de la chaîne d'approvisionnement et de la finance peuvent déterminer mathématiquement si l'extension des conditions fournisseurs à **Net-30**, le fractionnement de la production en deux lots décalés ou le report d'une PO de 14 jours préserve 100 % de la vélocité des revenus tout en éliminant le risque d'insolvabilité.
+
+---
+
+## L'origine : pourquoi j'ai construit ce système d'exploitation financier
+
+Beaucoup de marques Shopify en croissance croient avoir une visibilité financière parce qu'elles possèdent des logiciels comptables, des comptes bancaires et des tableaux de bord de ventes. En pratique, chaque système répond à une question isolée :
+
+*   Les **logiciels comptables (QuickBooks/Xero)** expliquent ce qui s'est déjà passé (*enregistrement historique en comptabilité d'engagement*).
+*   **Shopify Analytics** explique ce que les clients ont commandé (*valeur marchande brute*).
+*   Les **portails bancaires** montrent où se trouve la trésorerie aujourd'hui (*instantané statique*).
+*   Les **gestionnaires de publicités (Meta/Google)** expliquent où le budget a été dépensé (*coût d'acquisition attribué*).
+
+Aucun d'eux ne calcule indépendamment si les décisions d'achat et de marketing d'aujourd'hui déclencheront une crise de fonds de roulement dans six semaines. L'inventaire est commandé parce que les ventes semblent fortes ; les budgets publicitaires sont escaladés parce que le ROAS semble sain ; les factures fournisseurs sont payées parce que le solde courant du jour semble élevé — jusqu'à ce que les retards de règlement, les soldes de PO et les factures publicitaires se heurtent la même semaine.
+
+**Avant de déployer ce toolkit :**  
+Une marque Shopify générant 480 000 $/mois de revenus approuve une PO d'inventaire de 150 000 $ sur la base d'un solde bancaire sain. Trois semaines plus tard, la facturation publicitaire par carte de crédit, les acomptes fournisseurs et les versements Shopify retardés se chevauchent, faisant tomber la trésorerie sous les exigences de paie.
+
+**Après avoir déployé ce toolkit :**  
+La même PO de 150 000 $ est saisie dans le **simulateur d'impact d'inventaire** avant approbation. Le modèle signale que la trésorerie de clôture de la semaine 7 franchira la réserve de sécurité configurée. La direction reporte la moitié de l'expédition de deux semaines et négocie des conditions Net-30 avec l'usine. Les objectifs de revenus sont atteints ; le risque de crise de trésorerie est neutralisé.
+
+---
+
+## Architecture du classeur & référence technique
+
+Le classeur Excel suit une **norme stricte de modélisation financière à trois couches** séparant les **entrées de données brutes**, les **moteurs de calcul par tableaux dynamiques** et la **présentation exécutive**. Chaque feuille de calcul a une responsabilité analytique unique pour empêcher la corruption des formules et assurer l'auditabilité.
+
+| Nom de la feuille | Objet fonctionnel central | Couche d'architecture |
+| :--- | :--- | :--- |
+| `Parameters` | Paramètres globaux de trésorerie, seuils de réserve de sécurité, taux FX et horizon de prévision | **Entrée & configuration** |
+| `Shopify_Data` | Tableau d'import CSV brut pour les commandes Shopify, remboursements, frais de passerelle et versements | **Entrée de données** |
+| `Bank_Transactions` | Imports de relevés de compte courant commercial et de processeurs de paiement | **Entrée de données** |
+| `Accounting_Data` | Écritures AP du grand livre, factures fournisseurs et suivi des factures | **Entrée de données** |
+| `Inventory_Purchases` | Bons de commande (POs) ouverts, pourcentages d'acompte, délais et dates d'échéance | **Entrée de données** |
+| `Advertising_Spend` | Dépenses média payantes quotidiennes/hebdomadaires sur Meta, Google, TikTok et les agences | **Entrée de données** |
+| `Reconciliation_Engine` | Appariement intersystèmes automatisé des règlements commande-à-banque | **Calcul analytique** |
+| `Payment_Review` | Détection automatisée des factures en double et des trop-payés AP | **Calcul analytique** |
+| `Cash_Flow_Forecast` | Projection de liquidité directe glissante sur 12 semaines et agrégation du burn de trésorerie | **Calcul analytique** |
+| `Inventory_Impact_Simulator` | Tests de résistance des achats préalables à l'approbation contre les réserves de trésorerie de sécurité | **Calcul analytique** |
+| `Financial_Dashboard` | Résumé exécutif des KPI CEO/CFO, alertes d'exception et graphiques de liquidité | **Présentation exécutive** |
 
 <details>
-<summary><strong>Pour les réviseurs techniques, les praticiens d'Excel et les collaborateurs</strong></summary>
+<summary><strong>Cliquer pour déplier : diagrammes de flux de données, trois pièges financiers & formules de tableaux dynamiques Excel (LET / LAMBDA / MAP / XLOOKUP)</strong></summary>
 
 ---
-
-## Architecture du classeur
-
-Le classeur suit une architecture stricte à trois couches qui sépare les données brutes, la logique analytique et le reporting de direction. Chaque feuille a une responsabilité unique, ce qui rend le classeur plus facile à auditer, à étendre et à transmettre.
-
-```
-                ┌────────────────────────────┐
-                │        Data Input          │
-                └─────────────┬──────────────┘
-                              │
-     Shopify Orders           │
-     Bank Transactions        │
-     Accounting Entries       │
-     Purchase Orders          │
-     Advertising Spend        │
-     Parameters               │
-                              ▼
-      ┌───────────────────────────────────────────┐
-      │      Analytical Calculation Layer         │
-      │                                           │
-      │ Reconciliation Engine                     │
-      │ Payment Review                            │
-      │ Cash Flow Forecast                        │
-      │ Inventory Impact Simulator                │
-      └───────────────────────────────────────────┘
-                              │
-                              ▼
-              ┌───────────────────────────┐
-              │ Executive Dashboard (CEO) │
-              └───────────────────────────┘
-```
-
----
-
-## Structure du classeur
-
-| Feuille | Objet | Couche |
-|---------|----------|---------|
-| Parameters | Réglages métier globaux et seuils | Input |
-| Shopify_Data | Commandes, remboursements et versements Shopify | Input |
-| Bank_Transactions | Relevés bancaires et de plateformes de paiement | Input |
-| Accounting_Data | Écritures de grand livre et factures | Input |
-| Inventory_Purchases | Bons de commande et échéanciers de paiement | Input |
-| Advertising_Spend | Coûts marketing par date et par plateforme | Input |
-| Reconciliation_Engine | Appariement des règlements inter-systèmes | Analysis |
-| Payment_Review | Détection des paiements en double | Analysis |
-| Cash_Flow_Forecast | Projection glissante de liquidité | Analysis |
-| Inventory_Impact_Simulator | Test de résistance des achats | Analysis |
-| Financial_Dashboard | Reporting des KPI de direction | Presentation |
-
----
-
-## Flux de données
-
-```
-Shopify
-        \
-Bank -----\
-            \
-Accounting ---> Reconciliation Engine
-                  │
-Inventory --------│
-                  │
-Advertising ------│
-                  │
-Parameters -------│
-                  ▼
-       Cash Flow Forecast
-                  │
-                  ▼
- Inventory Impact Simulator
-                  │
-                  ▼
-       Financial Dashboard
-```
-
-Le classeur empêche délibérément le reporting direct à partir des données brutes.
-
-Chaque KPI provient de feuilles analytiques validées plutôt que des tableaux importés.
-
-Cela réduit les erreurs de calcul cachées et rend le processus analytique reproductible.
-
----
-
-## Flux de validation
-
-```
-Import CSV
-
-      │
-
-      ▼
-
-Excel Tables
-
-      │
-
-      ▼
-
-Dynamic Array Calculations
-
-      │
-
-      ▼
-
-Exception Detection
-
-      │
-
-      ▼
-
-Forecast Generation
-
-      │
-
-      ▼
-
-Executive Dashboard
-```
-
-Chaque calcul dépend de tableaux Excel structurés plutôt que de plages statiques.
-
-À mesure que les données sources croissent, les calculs s'étendent automatiquement sans copier de formules.
-
----
-
-## Trois pièges qui attrapent même les équipes financières expérimentées
-
----
-
-## Piège 1 — Considérer le solde bancaire du jour comme de la trésorerie disponible
-
-### La décision
-
-La direction approuve une commande de stock de $180 000 parce que la banque détient actuellement $420 000.
-
----
-
-### Hypothèse cachée
-
-Le solde bancaire ignore :
-
-- les acomptes fournisseurs dus la semaine prochaine
-- les factures publicitaires
-- les règlements Shopify retardés
-- les charges d'exploitation en souffrance
-
-Le chiffre est correct.
-
-La décision ne l'est pas.
-
----
-
-### Recommandation incorrecte
-
-```
-Cash Today
-
-$420,000
-
-Inventory Cost
-
-$180,000
-
-Remaining Cash
-
-$240,000
-
-Decision
-
-Approve Purchase
-```
-
-L'achat semble abordable.
-
----
-
-### Pourquoi ce raisonnement échoue
-
-Le calendrier de la trésorerie importe plus que le solde de trésorerie.
-
-Trois semaines plus tard :
-
-- le paiement du solde fournisseur
-- les factures publicitaires
-- la paie
-- le calendrier de règlement retardé
-
-se produisent tous simultanément.
-
-Le fonds de roulement devient négatif malgré le solde sain du jour.
-
----
-
-### Approche correcte
-
-Le classeur projette la liquidité future à l'aide de :
-
-- calendrier des règlements
-- calendrier des achats
-- dépenses publicitaires
-- mouvements de trésorerie historiques
-- réserve de sécurité configurable
-
-La qualité de la décision s'améliore parce que les obligations futures deviennent visibles avant que l'argent ne soit engagé.
-
----
-
-### Décision correcte
-
-```
-Week 1
-
-$420k
-
-Week 4
-
-$275k
-
-Week 7
-
-$82k
-
-Safety Reserve
-
-$100k
-
-Recommendation
-
-Delay Purchase
-```
-
-La direction retarde l'achat de deux semaines.
-
-Les ventes restent inchangées.
-
-Le risque de trésorerie disparaît.
 
 <details>
+<summary><strong>Flux de données système & architecture de validation</strong></summary>
 
-<summary>Référence des formules</summary>
+```text
+            ┌────────────────────────────┐
+            │         Data Input         │
+            └─────────────┬──────────────┘
+                          │
+ Shopify Orders           │
+ Bank Transactions        │
+ Accounting Entries       │
+ Purchase Orders          │
+ Advertising Spend        │
+ Parameters               │
+                          ▼
+  ┌───────────────────────────────────────────┐
+  │       Analytical Calculation Layer        │
+  │                                           │
+  │ Reconciliation Engine                     │
+  │ Payment Review                            │
+  │ Cash Flow Forecast                        │
+  │ Inventory Impact Simulator                │
+  └───────────────────────┬───────────────────┘
+                          │
+                          ▼
+          ┌───────────────────────────┐
+          │ Executive Dashboard (CEO) │
+          └───────────────────────────┘
+```
+
+Le classeur bloque volontairement le reporting direct à partir des entrées CSV brutes. Chaque KPI sur le `Financial_Dashboard` provient de feuilles analytiques validées, alimentées par des **tableaux Excel** structurés — ce qui signifie qu'à mesure que votre nombre de lignes passe de 100 à 50 000 transactions, les formules de tableaux dynamiques se propagent et s'étendent automatiquement sans glisser ni copier de cellules.
+
+</details>
+
+---
+
+<details>
+<summary><strong>Trois pièges qui attrapent même les équipes financières e-commerce expérimentées</strong></summary>
+
+<details>
+<summary><strong>Piège 1 — supposer que le solde bancaire du jour représente le fonds de roulement disponible</strong></summary>
+
+*   **La décision erronée :** approuver une commande d'inventaire de 180 000 $ parce que le compte courant détient actuellement 420 000 $ (`$420k - $180k = $240k remaining`).
+*   **Pourquoi elle échoue :** le timing de trésorerie importe plus que les soldes statiques. Trois semaines plus tard, les paiements de soldes fournisseurs, les factures publicitaires, les salaires et un retard de règlement Shopify de 4 jours se heurtent en semaine 7, faisant tomber la trésorerie réelle à **82 000 $** (rupture de la **réserve de sécurité de 100 000 $**).
+*   **Solution du modèle :** évalue la liquidité projetée à la semaine de l'acompte initial comme à la semaine du paiement final, avant que l'argent ne soit engagé :
 
 ```excel
 =LET(
@@ -397,102 +234,21 @@ Parameters[Param_Value],
 )
 ```
 
-Cette formule évalue la liquidité projetée avant les événements d'acompte et de paiement final.
-
 </details>
 
----
-
-## Piège 2 — Traiter chaque règlement Shopify comme effectivement encaissé
-
-### La décision
-
-La finance suppose que chaque commande Shopify finalisée est parvenue sur le compte bancaire de l'entreprise.
-
-Les rapports de chiffre d'affaires semblent corrects.
-
-La trésorerie semble correcte.
-
-Aucune des deux hypothèses n'est vérifiée.
-
----
-
-### Hypothèse cachée
-
-Orders
-
-≠
-
-Cash Received
-
-Les retards de règlement, les paiements partiels, les ajustements des prestataires de paiement, les remboursements et les incidents bancaires créent fréquemment des écarts.
-
-Sans rapprochement automatisé, ces exceptions restent masquées.
-
----
-
-### Recommandation incorrecte
-
-```
-Shopify Revenue
-
-$615,000
-
-Expected Cash
-
-$615,000
-
-Decision
-
-Cash Collection Complete
-```
-
----
-
-### Pourquoi ce raisonnement échoue
-
-Plusieurs règlements peuvent appartenir à une même commande.
-
-Un règlement peut contenir plusieurs commandes.
-
-Le calendrier des remboursements peut différer de celui des règlements.
-
-L'appariement manuel devient rapidement peu fiable.
-
----
-
-### Approche correcte
-
-Le classeur construit une liste de commandes unique et calcule indépendamment :
-
-- Shopify Net Payment
-- Bank Settled Amount
-- Variance
-- Matching Status
-
-Seules les transactions rapprochées contribuent au reporting de direction.
-
----
-
-### Décision correcte
-
-| Commande | Shopify | Banque | Résultat |
-|---------|----------|---------|---------|
-| 10541 | $245 | $245 | Correspondance |
-| 10542 | $310 | $280 | Écart |
-| 10543 | $180 | $0 | Règlement manquant |
-
-La finance n'examine que les exceptions signalées au lieu de passer en revue chaque transaction.
-
 <details>
+<summary><strong>Piège 2 — traiter chaque commande Shopify terminée comme de la trésorerie encaissée</strong></summary>
 
-<summary>Référence des formules</summary>
+* **La décision erronée :** supposer que 615 000 $ de ventes Shopify déclarées équivalent à 615 000 $ de dépôts bancaires.
+* **Pourquoi elle échoue :** un versement peut regrouper plusieurs commandes ; une commande peut se diviser en règlements partiels ; les rétrofacturations et les réserves de passerelle créent des variances silencieuses.
+* **Solution du modèle :** construit un index de commandes unique et mappe dynamiquement les paiements nets attendus de Shopify contre les flux de référence bancaires agrégés :
 
 ```excel
 =UNIQUE(
 FILTER(
 Shopify_Data[Order ID],
 Shopify_Data[Order ID]<>""))
+
 ```
 
 ```excel
@@ -504,257 +260,40 @@ Bank_Transactions[Amount],
 Bank_Transactions[Reference ID],
 order_id
 )))
-```
 
-```excel
-=B2#-C2#
-```
-
-Ces formules créent un moteur de rapprochement entièrement dynamique sans aucune formule copiée.
-
-</details>
-
----
-
-## Scénario d'exemple (Partie 1)
-
-Imaginez une marque Shopify en croissance générant environ **USD 520 000 de chiffre d'affaires mensuel**.
-
-Les conditions d'exploitation actuelles comprennent :
-
-| Élément | Valeur |
-|-------|---------:|
-| Solde bancaire actuel | $468 000 |
-| Bon de commande en cours | $210 000 |
-| Acompte requis | 30% |
-| Solde fournisseur restant | 70% |
-| Dépenses publicitaires hebdomadaires | $34 000 |
-| Réserve de sécurité de trésorerie | $100 000 |
-| Délai moyen de règlement Shopify | 4 jours |
-
-À première vue, la direction conclut que la liquidité est suffisante pour approuver immédiatement le bon de commande.
-
-L'Inventory Impact Simulator produit un tableau différent.
-
-L'acompte fournisseur requis réduit immédiatement la trésorerie disponible.
-
-Au cours des semaines suivantes, les engagements publicitaires se poursuivent tandis que le solde fournisseur restant devient exigible avant que tous les règlements Shopify ne soient encaissés.
-
-Plutôt que d'évaluer seulement le solde de trésorerie du jour, le classeur modélise le calendrier de chaque entrée et sortie de trésorerie majeure sur les douze semaines à venir.
-
-La projection résultante montre que la trésorerie disponible tombe brièvement sous la réserve opérationnelle configurée pendant la semaine 7, bien que le trimestre se termine avec un solde de trésorerie positif.
-
-Au lieu d'annuler entièrement l'achat, la direction peut explorer des alternatives opérationnelles :
-
-- négocier des conditions de paiement fournisseur révisées,
-- diviser le bon de commande en deux expéditions,
-- retarder une partie de la campagne publicitaire,
-- ou reporter la seconde série de production jusqu'à l'arrivée des encaissements des règlements.
-
-La recommandation n'est donc pas simplement **« acheter »** ou **« ne pas acheter »**.
-
-Elle devient **« acheter selon des conditions de paiement qui préservent la liquidité opérationnelle minimale »**.
-
-Cette distinction est exactement l'endroit où l'aide à la décision opérationnelle crée de la valeur.
-
----
-
-## Scénario d'exemple (Partie 2)
-
-<details>
-<summary>Scénario d'exemple (Partie 2) — détails pour les réviseurs techniques</summary>
-
-Le directeur financier examine la prévision avant d'approuver le paiement fournisseur.
-
-Le mouvement de trésorerie projeté se présente désormais ainsi :
-
-| Semaine | Trésorerie d'ouverture | Entrées | Sorties | Trésorerie de clôture |
-|------|-------------:|---------:|----------:|------------:|
-| Semaine 1 | $468 000 | $92 400 | $97 600 | $462 800 |
-| Semaine 2 | $462 800 | $118 300 | $121 900 | $459 200 |
-| Semaine 3 | $459 200 | $86 700 | $158 500 | $387 400 |
-| Semaine 4 | $387 400 | $95 800 | $144 600 | $338 600 |
-| Semaine 5 | $338 600 | $101 400 | $129 700 | $310 300 |
-| Semaine 6 | $310 300 | $84 900 | $176 200 | $219 000 |
-| Semaine 7 | $219 000 | $73 600 | $196 800 | **$95 800** |
-| Semaine 8 | $95 800 | $168 700 | $118 500 | $146 000 |
-| Semaine 9 | $146 000 | $179 100 | $136 700 | $188 400 |
-| Semaine 10 | $188 400 | $161 200 | $119 500 | $230 100 |
-| Semaine 11 | $230 100 | $156 300 | $121 800 | $264 600 |
-| Semaine 12 | $264 600 | $170 500 | $135 700 | $299 400 |
-
-Le tableau de bord signale immédiatement la semaine 7 parce que la liquidité projetée tombe sous la **réserve de sécurité de trésorerie de $100 000** configurée.
-
-Plutôt que de découvrir le problème après que les paiements ont déjà été libérés, la finance identifie la contrainte six semaines à l'avance.
-
-La direction évalue trois alternatives.
-
-| Alternative | Résultat prévu |
-|-------------|----------------|
-| Approuver l'achat immédiatement | La liquidité de la semaine 7 tombe sous la réserve |
-| Retarder le paiement du solde fournisseur de 14 jours | La réserve de trésorerie reste au-dessus du seuil |
-| Diviser l'achat en deux lots de production | La liquidité reste stable tandis que le risque de stock diminue |
-
-La deuxième option offre le meilleur équilibre entre continuité opérationnelle et sécurité financière.
-
-Cela illustre une philosophie de conception importante du classeur :
-
-L'objectif n'est **pas** de maximiser la trésorerie.
-
-L'objectif est de préserver la flexibilité décisionnelle en identifiant les contraintes de liquidité futures avant qu'elles ne deviennent des problèmes opérationnels.
-
-</details>
-
----
-
-## Référence des formules
-
-<details>
-<summary><strong>Parameters</strong></summary>
-
-| Formule | Objet |
-|---------|----------|
-| `XLOOKUP()` | Récupérer les paramètres métier configurables. |
-| Named Excel Tables | Centraliser la configuration sans valeurs codées en dur. |
-
-Les paramètres typiques comprennent :
-
-- Safety Cash Reserve
-- Exchange Rate
-- Forecast Horizon
-- Default Payment Terms
-- Reporting Currency
-
-</details>
-
-<details>
-<summary><strong>Reconciliation Engine</strong></summary>
-
-### Liste de commandes dynamique
-
-```excel
-=UNIQUE(
-FILTER(
-Shopify_Data[Order ID],
-Shopify_Data[Order ID]<>""))
-```
-
-Crée un index de rapprochement en expansion continue.
-
----
-
-### Montant net Shopify
-
-```excel
-=MAP(
-A2#,
-LAMBDA(order_id,
-XLOOKUP(
-order_id,
-Shopify_Data[Order ID],
-Shopify_Data[Net Payment],
-0)))
-```
-
-Renvoie les valeurs de règlement Shopify.
-
----
-
-### Règlement bancaire
-
-```excel
-=MAP(
-A2#,
-LAMBDA(order_id,
-SUMIFS(
-Bank_Transactions[Amount],
-Bank_Transactions[Reference ID],
-order_id)))
-```
-
-Agrège plusieurs règlements appartenant à une même commande.
-
----
-
-### Écart
-
-```excel
-=B2#-C2#
-```
-
-Calcule les différences de rapprochement.
-
----
-
-### Classification du statut
-
-```excel
-=MAP(
-D2#,
-LAMBDA(diff,
-IFS(
-diff=0,
-"Matched",
-ABS(diff)<0.05,
-"Minor Difference",
-TRUE,
-"Variance")))
-```
-
-Classe automatiquement le statut de rapprochement.
-
-</details>
-
-<details>
-<summary><strong>Payment Review</strong></summary>
-
-Fonctions principales
-
-- LET()
-- FILTER()
-- MAP()
-- COUNTIF()
-- HSTACK()
-
-Objet :
-
-Détecte automatiquement :
-
-- les factures en double
-- les paiements fournisseurs en double
-- les enregistrements de paiement suspects
-- les factures nécessitant une approbation manuelle
-
-Sortie principale :
-
-```
-Duplicate Invoice
-
-↓
-
-Finance Review
-
-↓
-
-Payment Approval
-
-↓
-
-Payment Released
 ```
 
 </details>
 
 <details>
-<summary><strong>Cash Flow Forecast</strong></summary>
+<summary><strong>Piège 3 — s'appuyer sur des budgets mensuels statiques pendant une escalade à grande vitesse</strong></summary>
 
-Chronologie hebdomadaire
+* **Cas pratique (marque Shopify à 520 000 $/mois) :** avec 468 000 $ de trésorerie d'ouverture, une PO de 210 000 $ (30 % d'acompte / 70 % de solde) et 34 000 $/semaine de dépenses publicitaires, les budgets mensuels statiques montrent un trimestre rentable se terminant à **299 400 $**. Cependant, la **prévision glissante sur 12 semaines** expose un creux temporaire en semaine 7 de **95 800 $** (sous le plancher de sécurité de 100 000 $). En reportant le paiement du solde fournisseur de 14 jours ou en fractionnant la PO en deux lots, la marque préserve sa pleine continuité opérationnelle.
 
-```excel
-=TODAY()+SEQUENCE(1,12,0,7)
-```
+| Semaine | Trésorerie d'ouverture | Entrées de trésorerie | Sorties de trésorerie | Trésorerie de clôture | Statut de réserve |
+| --- | --- | --- | --- | --- | --- |
+| Semaine 1 | 468 000 $ | 92 400 $ | 97 600 $ | 462 800 $ | Sûr |
+| Semaine 3 | 459 200 $ | 86 700 $ | 158 500 $ | 387 400 $ | Sûr |
+| Semaine 6 | 310 300 $ | 84 900 $ | 176 200 $ | 219 000 $ | Sûr |
+| **Semaine 7** | **219 000 $** | **73 600 $** | **196 800 $** | **95 800 $** | **RUPTURE (sous 100 k$)** |
+| Semaine 8 | 95 800 $ | 168 700 $ | 118 500 $ | 146 000 $ | Récupéré |
+| Semaine 12 | 264 600 $ | 170 500 $ | 135 700 $ | 299 400 $ | Sûr |
 
-Prévision publicitaire
+</details>
+
+</details>
+
+---
+
+<details>
+<summary><strong>Référence des formules de base & règles de validation des entrées</strong></summary>
+
+<details>
+<summary><strong>Référence des formules de base</strong></summary>
+
+* **Générateur de chronologie glissante sur 12 semaines :** `=TODAY()+SEQUENCE(1,12,0,7)`
+
+* **Agrégation hebdomadaire dynamique des dépenses publicitaires :**
 
 ```excel
 =MAP(
@@ -767,122 +306,64 @@ Advertising_Spend[Date],
 ">="&week_start,
 Advertising_Spend[Date],
 "<"&week_start+7)))
+
 ```
 
-Objet
-
-- Prévision glissante sur douze semaines
-- Se décale automatiquement chaque semaine
-- Aucune maintenance manuelle de la chronologie
-
-</details>
-
-<details>
-<summary><strong>Inventory Impact Simulator</strong></summary>
-
-Logique centrale
+* **Classificateur de variance de rapprochement automatisé :**
 
 ```excel
-=LET(
-min_cash,
-...
-projected_cash_at_prepay,
-...
-projected_cash_at_final,
-...
-IFS(...)
-)
+=MAP(
+D2#,
+LAMBDA(diff,
+IFS(
+diff=0,
+"Matched",
+ABS(diff)<0.05,
+"Minor Difference",
+TRUE,
+"Variance")))
+
 ```
 
-Logique métier
-
-Évaluer :
-
-- le paiement de l'acompte
-- le paiement final au fournisseur
-- le mouvement de trésorerie historique
-- la réserve de sécurité
-- la liquidité après les deux événements de paiement
-
-Sortie
-
-✅ Sûr
-
-⚠ Avertissement
-
-❌ Rupture de la réserve de trésorerie
-
 </details>
-
----
-
-## Règles de validation
 
 <details>
-<summary>Tableau des règles de validation</summary>
+<summary><strong>Règles de validation des entrées</strong></summary>
 
-| Champ | Règle de validation | Comportement en cas d'erreur |
-|-------|-----------------|----------------|
-| Order ID | Ne peut pas être vide | Exclu du rapprochement |
-| Invoice Number | Les valeurs en double déclenchent une revue | Un avertissement de paiement est généré |
-| Payment Amount | Doit être numérique | Enregistrement ignoré jusqu'à correction |
-| Purchase Order Value | Nombre positif uniquement | Simulation désactivée |
-| Prepayment Percentage | Entre 0% et 100% | Avertissement de validation |
-| Lead Time | Semaines entières uniquement | Prévision indisponible |
-| Transaction Date | Date Excel valide | Exclu de la prévision |
-| Advertising Cost | Valeur numérique | Agrégation hebdomadaire ignorée |
-| Safety Cash Reserve | Paramètre numérique positif | Valeur par défaut appliquée en cas d'absence |
-| Reference ID | Format texte cohérent | L'écart d'appariement augmente |
+| Champ d'entrée | Règle de validation intégrée | Comportement de gestion des erreurs système |
+| --- | --- | --- |
+| `Order ID` | Chaîne non vide | Exclu de l'index de rapprochement dynamique |
+| `Invoice Number` | Vérification des doublons `COUNTIF` | Déclenche un avertissement immédiat de double paiement AP |
+| `Payment Amount` | Validation numérique stricte | Les enregistrements non numériques sont contournés jusqu'à correction |
+| `Purchase Order Value` | Valeur numérique positive | Désactive la simulation de PO pour les lignes invalides |
+| `Prepayment Percentage` | Décimale entre `0%` et `100%` | Déclenche un avertissement de plage de paramètres |
+| `Safety Cash Reserve` | Seuil numérique positif | Applique la valeur de repli `$50,000` si omis |
 
 </details>
 
----
+</details>
 
 </details>
 
----
-
-## La logique métier et la méthodologie
-
-Ce toolkit n'est pas une simple collection de tableurs ; il repose sur des méthodologies éprouvées de modélisation financière conçues spécifiquement pour répondre aux vulnérabilités structurelles du modèle économique direct-to-consumer. 
-
-Voici la logique métier sous-jacente et la manière dont le système résout les défis critiques de liquidité :
-
-### 1. Le problème central : la déconnexion du cycle de conversion de trésorerie (CCC)
-Dans l'écosystème Shopify, le **cycle de conversion de trésorerie** est naturellement inversé. Les marques paient la fabrication et le fret d'avance, dépensent de manière agressive en marketing à la performance (sorties de trésorerie quotidiennes), puis attendent que les passerelles de paiement (Stripe, PayPal, Shopify Payments) libèrent les fonds. 
-
-La **comptabilité d'exercice** traditionnelle mesure la rentabilité mais ignore le calendrier de ces mouvements de trésorerie. Ce toolkit déplace le focus de la direction de la rentabilité historique du compte de résultat vers la **gestion prospective de la liquidité sur base de trésorerie**, garantissant que l'entreprise survit à sa propre croissance.
-
-### 2. Méthodologie : rapprochement marchand à 3 voies
-*   **La méthode :** Le système emploie un cadre d'appariement déterministe (le **principe de rapprochement à 3 voies** utilisé dans les services AP/AR d'entreprise) pour recouper trois silos de données distincts : ventes brutes (tableau de bord Shopify), fonds en transit (comptes de dénouement de la passerelle) et espèces réglées (relevés bancaires).
-*   **L'impact commercial (pourquoi c'est important) :** Il élimine le syndrome du « seau percé ». En isolant automatiquement les divergences des comptes de dénouement, les équipes financières peuvent identifier instantanément les versements retardés, les retenues de plateforme, les anomalies de chargeback ou les erreurs de classification comptable qui faussent la véritable position de trésorerie opérationnelle de l'entreprise.
-
-### 3. Méthodologie : prévision glissante des flux de trésorerie à base zéro
-*   **La méthode :** Contrairement aux budgets annuels statiques qui perdent en précision, ce cadre utilise une **prévision glissante de liquidité sur 12 semaines**. Il reconstruit la projection de trésorerie à partir de zéro en temps réel, en utilisant des entrées opérationnelles actives — bons de commande (PO) ouverts, taux de consommation ROAS/publicité actifs et acomptes fournisseurs en attente — plutôt que de s'appuyer sur des moyennes historiques.
-*   **L'impact commercial (pourquoi c'est important) :** Il comble le fossé entre la comptabilité et la réalité. Cette méthodologie répond à la question de survie ultime : *« Aurons-nous assez de trésorerie pour financer la paie et payer les fournisseurs en semaine 6 ? »* Elle transforme la prévision des flux de trésorerie d'un exercice réactif de reporting de fin de mois en un garde-fou opérationnel quotidien et proactif.
-
-### 4. Méthodologie : optimisation du fonds de roulement basée sur des scénarios
-*   **La méthode :** Le toolkit comprend un module dynamique de test de résistance pour le financement du stock et de la chaîne d'approvisionnement. Il modélise l'impact sur la trésorerie de différentes conditions de paiement (par ex. acompte de 30% d'avance vs. 70% Net-30/Net-60 sur connaissement) par rapport à la vitesse de revenus projetée.
-*   **L'impact commercial (pourquoi c'est important) :** Il prévient le surendettement et la faillite induite par le stock. En quantifiant le calendrier exact des futures crises de trésorerie, il permet aux responsables des achats et aux CFO de négocier des conditions de paiement fournisseurs sur la base de contraintes mathématiques de liquidité, optimisant directement **l'efficacité du fonds de roulement** de la marque.
 
 ---
 
-## Autres outils de cette série
+## À propos du créateur & plus de toolkits de soutien à la décision opérationnelle
 
-Ce classeur fait partie d'une collection croissante d'outils légers d'aide à la décision opérationnelle.
+Je construis des **modèles financiers Microsoft Excel** légers et des **toolkits de soutien à la décision opérationnelle** basés sur navigateur pour des environnements commerciaux à grande vitesse où les logiciels fragmentés rendent difficile une allocation de capital fiable. Chaque cadre répond à une question fondamentale :
 
-Exemples :
+> *« Quelles données interfonctionnelles doivent exister dans un modèle centralisé avant que la prochaine décision financière à enjeux élevés puisse être prise avec confiance ? »*
 
-- Classeur de contrôle des coûts de projet de construction
-- Moteur décisionnel de gestion des revenus
-- Automatisation du reporting vendeur Amazon
-- CRM & attribution marketing Shopify
-- Modèle financier d'acquisition multifamiliale
-- Estimation et suivi des coûts de construction
-- Tableaux de bord KPI de direction
-- Cadres de prévision des flux de trésorerie
+### Explorez d'autres modèles financiers & opérationnels de cette série :
 
-Des outils supplémentaires sont disponibles via le dépôt GitHub et notre [site web](https://www.theseusworkshop.com/).
+* **Classeur de contrôle des coûts de projet de construction & de coûts par emploi**
+* **Moteur de décision de gestion des revenus & de tarification e-commerce**
+* **Automatisation des règlements & de la rentabilité vendeur Amazon FBA**
+* **Modèle d'attribution marketing multi-touch CRM & Shopify**
+* **Modèle financier d'acquisition immobilière multifamiliale**
+* **Tableaux de bord KPI FP&A exécutifs & cadres de prévision glissante**
+
+Parcourez la bibliothèque complète de classeurs de qualité commerciale, de simulateurs web interactifs et de guides de mise en œuvre sur **[Theseus Workshop — Modélisation financière opérationnelle & toolkits Excel de soutien à la décision](https://www.theseusworkshop.com/)**.
 
 ---
 
@@ -890,6 +371,6 @@ Des outils supplémentaires sont disponibles via le dépôt GitHub et notre [sit
 
 Sous licence **Apache License 2.0**.
 
-Ce projet peut être utilisé, modifié et distribué conformément aux termes de la licence Apache License 2.0.
+Ce projet peut être utilisé, modifié et distribué conformément aux termes de la licence Apache 2.0.
 
-Voir le fichier **LICENSE** inclus dans ce dépôt pour les informations complètes sur la licence.
+Voir le fichier **LICENSE** inclus dans ce dépôt pour les informations de licence complètes.
