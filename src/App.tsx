@@ -305,7 +305,7 @@ export default function App() {
     const downloadAnchor = document.createElement('a');
     downloadAnchor.setAttribute("href", dataStr);
     const dateStr = new Date().toISOString().split('T')[0];
-    downloadAnchor.setAttribute("download", `fdss_backup_${dateStr}.json`);
+    downloadAnchor.setAttribute("download", `shopify-cash-flow-forecast-excel-toolkit-backup-${dateStr}.json`);
     document.body.appendChild(downloadAnchor);
     downloadAnchor.click();
     downloadAnchor.remove();
@@ -467,6 +467,11 @@ export default function App() {
           {renderTabContent()}
         </div>
       </main>
+
+      {/* Footer Statement */}
+      <footer className="w-full py-6 text-center text-xs text-[#888888] border-t border-[#E0E0E0] mt-auto">
+        <p>All data in this tool is stored in your browser&apos;s localStorage. The page itself does not retain any user data.</p>
+      </footer>
 
     </div>
   );

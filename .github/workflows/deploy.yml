@@ -3,7 +3,8 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main # Or your default branch
+      - main
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -18,9 +19,10 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          # Disabled npm Cache Setup to prevent 'lock file not found' build failure on runner
-          cache: ""
+          node-version: 22
+
+      - name: Print Node Version
+        run: node --version
 
       - name: Install Dependencies
         run: npm install

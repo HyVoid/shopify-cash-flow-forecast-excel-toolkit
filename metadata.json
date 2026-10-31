@@ -1,6 +1,6 @@
 {
-  "name": "DTC Financial Decision Support System",
-  "description": "An interactive full-featured SaaS web application for Shopify DTC merchants. Features real-time bank reconciliation, duplicate payment reviews, weekly cash flow projections, and inventory cash-drain simulation.",
+  "name": "shopify-cash-flow-forecast-excel-toolkit",
+  "description": "Shopify cash flow forecast excel toolkit by Theseus Workshop. Interactive financial desk for DTC merchants featuring bank reconciliation, payment reviews, and inventory simulation.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

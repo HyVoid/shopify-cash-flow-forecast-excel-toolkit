@@ -60,12 +60,24 @@ export default function Header({
       
       {/* Brand Identification */}
       <div className="flex items-center gap-2.5 shrink-0">
-        <div className="w-8 h-8 rounded-[8px] bg-[#051C2C] flex items-center justify-center text-white shadow-sm">
+        <div className="w-8 h-8 rounded-[8px] bg-[#051C2C] flex items-center justify-center text-white shadow-sm shrink-0">
           <Database size={16} />
         </div>
-        <div className="hidden sm:block">
-          <h1 className="heading-eb text-base font-bold text-[#051C2C] tracking-tight leading-none">FDSS</h1>
-          <span className="text-[9px] text-[#888888] font-mono leading-none tracking-wider">DTC Finance Desk</span>
+        <div className="flex flex-col justify-center">
+          <div className="flex items-center gap-2">
+            <h1 className="heading-eb text-[15px] font-bold text-[#051C2C] tracking-tight leading-none whitespace-nowrap">
+              Theseus Workshop
+            </h1>
+            <span className="text-[11px] font-mono text-[#888888] hidden xl:inline-block leading-none">
+              /
+            </span>
+            <span className="text-[11px] font-mono text-[#888888] hidden xl:inline-block leading-none">
+              shopify-cash-flow-forecast-excel-toolkit
+            </span>
+          </div>
+          <span className="text-[10px] font-mono text-[#888888] leading-tight block xl:hidden truncate max-w-[210px]">
+            shopify-cash-flow-forecast-excel-toolkit
+          </span>
         </div>
       </div>
 
