@@ -34,6 +34,14 @@ Standard accounting software tracks historical accrual profitability, leaving gr
 | **Inventory Stockout vs. Cash Crunch:** Paying 30% upfront deposits and 70% balances on **Purchase Orders (POs)** weeks before inventory converts to cash. | Inventory-induced insolvency during peak Q3/Q4 manufacturing ramps. | **Inventory PO Impact Simulator:** Stress-tests **Landed Cost Payment Terms (Net-30/60)** against your **Minimum Cash Reserve Threshold**. |
 | **Siloed Ad Spend & ROAS Reporting:** Media buyers scale daily Facebook/Google ad budgets disconnected from actual bank settlement timing. | High **Marketing Efficiency Ratio (MER)** on paper masking severe short-term credit card and cash burn. | **Integrated Ad Spend Liquidity Tracker:** Aligns **Weekly Customer Acquisition Cost (CAC) Outflows** with delayed **Payment Processor Inflows**. |
 
+## Spreadsheet Preview
+
+Want to take a closer look before downloading? You can preview the spreadsheet in Google Sheets to explore its layout, structure, and calculation logic.
+
+**[View Spreadsheet Preview on Google Sheets](https://docs.google.com/spreadsheets/d/1CgGAHWO0jfPqCzytN_xAICe3uJkj91Hx/edit?usp=sharing&ouid=108770714531989318327&rtpof=true&sd=true)**
+
+> **Note on Compatibility:** The Google Sheets preview may display occasional `#NAME?` errors or formula warnings due to differences between Google Sheets and Microsoft Excel formula compatibility. These are preview-only compatibility issues and do not affect the functionality of the original Excel workbook. For the intended formula behavior and full functionality, please download and open the `.xlsx` file in Microsoft Excel.
+
 ---
 
 ## Quick Start Tutorial: How to Automate Your Shopify Cash Flow & Payout Analysis
